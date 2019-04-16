@@ -1,4 +1,11 @@
 language: python
 sudo: required
-install: ./install.py
-script: ./build.py
+install:
+  - pip3 install --upgrade pip
+  - pip3 install requests
+  - pip3 install mkdocs
+  - pip3 install mkdocs-material
+script:
+  - cd files/zh-CN && mkdocs build
+  - cd ../en-US && mkdocs build
+  - python3 ./deploy.py
