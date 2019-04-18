@@ -22,7 +22,7 @@ extension=mbstring
 
 ## 在后台出现 file\_get\_contents\(\) 警告
 
-此错误发生于 MDx 试图从 CDN 获取最新版本信息时。由于你的 `php.ini` 限制导致 MDx 无法从启用了 https 的 CDN 中获取版本信息。要解决此错误，你可以修改 `php.ini` 来启用 openssl。以 PHP 7.2.0 为例，找到：
+此错误发生于 MDx 试图从 CDN 获取最新版本信息时。由于你的 `php.ini` 限制， MDx 无法从启用了 https 的 CDN 中获取版本信息。你可以通过修改 `php.ini` 启用 OpenSSL 来解决此问题。以 PHP 7.2.0 为例，找到：
 
 ```
 ;extension=openssl
