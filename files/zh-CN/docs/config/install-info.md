@@ -4,5 +4,5 @@
 
 ![Screenshot](../img/install-info.jpg)
 
-!!! note "未来计划"
+!!! info "未来计划"
     随着 MDx 的更新，这一部分的逻辑可能更改，这一选项也可能会在未来被移除。
