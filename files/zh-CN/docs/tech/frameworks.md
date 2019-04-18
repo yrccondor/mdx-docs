@@ -29,6 +29,7 @@ MDx 内置了 [html2canvas](https://html2canvas.hertzen.com) 1.0.0-alpha.11 版�
 ## lazyload
 
 MDx 内置了 [lazyload](https://github.com/jieyou/lazyload)。此文件位于 `主题根目录/js/` 下。
+
 !!! info "更新 LazyLoad"
     MDx 计划在未来版本中使用另一 LazyLoad 库代替这个库以提供更好的性能和加载样式。
 

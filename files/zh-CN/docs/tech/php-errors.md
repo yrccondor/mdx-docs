@@ -43,7 +43,7 @@ extension=openssl
 
 你可能会在一些地方发现 PHP Warning。请不要担心，这很可能是由于你开启了 [WordPress Debug 模式](https://codex.wordpress.org/WP_DEBUG)（默认关闭）导致的，并不影响使用。
 
-要关闭 WordPress Debug 模式，你需要修改 WordPress 安装根目录下的 `wp-config.php`。找到：
+要关闭 WordPress Debug 模式，你需要修改 WordPress 安装根目录下的 `wp-config.php` 文件。找到：
 
 ``` php
 define( 'WP_DEBUG', true );

@@ -11,7 +11,7 @@
 
 ![Wrong Menu](../img/wrong-menu.jpg)
 
-不要担心，只需简单的设置即可使其恢复正常：打开后台设置项中的「外观」 - 「菜单」 ，新建一个菜单或选择原有菜单，并在菜单的「显示位置」 中勾选「抽屉菜单」，保存即可。
+不要担心，只需简单的设置即可使其恢复正常：打开后台设置项中的「外观」-「菜单」 ，新建一个菜单或选择原有菜单，并在菜单的「显示位置」中勾选「抽屉菜单」，保存即可。
 
 ![Set menu](../img/set-menu.jpg)
 
@@ -27,9 +27,7 @@
 
 ![Menu icon demo](../img/icon-demo.jpg)
 
-要在菜单中添加图标，你需要修改你的菜单设置。
-
-首先从 [MDUI 图标库](https://www.mdui.org/docs/material_icon) 中找到你想要的图标，并点击它，复制任意一段由页面提供的代码。这段代码应该像这样：
+要在菜单中添加图标，你需要修改你的菜单设置。首先从 [MDUI 图标库](https://www.mdui.org/docs/material_icon) 中找到你想要的图标，并点击它，复制任意一段由页面提供的代码。这段代码应该像这样：
 
 ``` html
 <i class="mdui-icon material-icons">home</i>
