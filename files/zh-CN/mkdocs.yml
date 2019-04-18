@@ -1,0 +1,89 @@
+site_name: 'MDx 文档'
+site_description: 'MDx 主题简体中文文档。'
+site_author: 'Axton'
+site_url: 'https://mdxdoc.flyhigher.top/zh-CN/'
+
+# Repository
+repo_name: 'yrccondor/mdx'
+repo_url: 'https://github.com/yrccondor/mdx'
+edit_url: ''
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - 2019 AxtonYao'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'zh'
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  include_search_page: false
+  search_index_only: true
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/yrccondor/mdx'
+    - type: 'globe'
+      link: 'https://mdx.flyhigher.top/'
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - MDx 文档: index.md
+  - 在开始之前: before-start.md
+  - 安装、更新及卸载: install.md
+  - 配置:
+    - 个性化: config/personalization.md
+    - 设置菜单: config/menus.md
+    - 文章图像: config/post-img.md
+    - 友情链接: config/links.md
+    - 小工具: config/tools.md
+    - 评论表情: config/emoji-in-comment.md
+    - ImgBox: config/imgbox.md
+    - 实时搜索: config/real-time-search.md
+    - 配置安装方式: config/install-info.md
+    - 多语言: config/multi-language.md
+    - 页面模板: config/page-template.md
+  - 短代码:
+    - 表格: shortcodes/table.md
+    - 折叠内容: shortcodes/folder.md
+    - 警告内容: shortcodes/warning.md
+    - 进度指示器: shortcodes/progress.md
+    - Github 信息卡: shortcodes/github-info-card.md
+    - 文章信息卡: shortcodes/post-info-card.md
+  - 技术信息:
+    - 常见 PHP 错误: tech/php-errors.md
+    - 框架和库: tech/frameworks.md
+  - 常见问题: faq.md
+  - 隐私声明: privacy.md
+  - 未来规划: roadmap.md
+  - 帮助我们: help-us.md
+  - Languages:
+    - 简体中文: 'https://mdxdoc.flyhigher.top/zh-CN/'
+    - English: 'https://mdxdoc.flyhigher.top/en-US/'
+    - Türkçe: 'https://mdxdoc.flyhigher.top/tr-TR/'

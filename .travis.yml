@@ -3,9 +3,10 @@ sudo: required
 install:
   - pip3 install --upgrade pip
   - pip3 install requests
+  - pip3 install pygments
   - pip3 install mkdocs
   - pip3 install mkdocs-material
+  - pip3 install pymdown-extensions
 script:
-  - cd files/zh-CN && mkdocs build
-  - cd ../en-US && mkdocs build
+  - cd files/zh-CN && mkdocs build --clean && zip -q -r site-zh-cn.zip ./site/
   - python3 ./deploy.py
