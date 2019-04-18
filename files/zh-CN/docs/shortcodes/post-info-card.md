@@ -5,8 +5,12 @@ MDx 提供了多种短代码的支持，在文章中插入短代码即可调用�
 ## 基本用法
 
 ```
-[mdx_post]同一域名下使用 MDx 主题的页面 URL[/mdx_post]
+[mdx_post]URL 内容[/mdx_post]
 ```
+
+## URL 内容
+
+同一域名下使用 MDx 主题或 [Open Graph](https://ogp.me) 信息完整的页面的 URL。
 
 ## 例子
 

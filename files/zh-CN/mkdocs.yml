@@ -6,7 +6,7 @@ site_url: 'https://mdxdoc.flyhigher.top/zh-CN/'
 # Repository
 repo_name: 'yrccondor/mdx'
 repo_url: 'https://github.com/yrccondor/mdx'
-edit_url: ''
+edit_url: ""
 
 # Copyright
 copyright: 'Copyright &copy; 2018 - 2019 AxtonYao'
