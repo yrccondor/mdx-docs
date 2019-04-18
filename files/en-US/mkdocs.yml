@@ -1,7 +1,7 @@
-site_name: 'MDx 文档'
-site_description: 'MDx 主题简体中文文档。'
+site_name: 'MDx Document'
+site_description: 'English docs for theme MDx.'
 site_author: 'Axton'
-site_url: 'https://mdxdoc.flyhigher.top/zh-CN/'
+site_url: 'https://mdxdoc.flyhigher.top/en-US/'
 
 # Repository
 repo_name: 'yrccondor/mdx'
@@ -14,7 +14,7 @@ copyright: 'Copyright &copy; 2018 - 2019 AxtonYao'
 # Configuration
 theme:
   name: 'material'
-  language: 'zh'
+  language: 'en'
   palette:
     primary: 'indigo'
     accent: 'pink'
@@ -54,35 +54,35 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - MDx 文档: index.md
-  - 在开始之前: before-start.md
-  - 安装、更新及卸载: install.md
-  - 配置:
-    - 个性化: config/personalization.md
-    - 设置菜单: config/menus.md
-    - 文章图像: config/post-img.md
-    - 友情链接: config/links.md
-    - 小工具: config/tools.md
-    - 评论表情: config/emoji-in-comment.md
+  - MDx Docs: index.md
+  - Before Start: before-start.md
+  - Install, Upgrade & Uninstall: install.md
+  - Configuration:
+    - Personalization: config/personalization.md
+    - Set Menu: config/menus.md
+    - Image Of the Post: config/post-img.md
+    - Friend Links: config/links.md
+    - Tools: config/tools.md
+    - Emotions in Comments: config/emoji-in-comment.md
     - ImgBox: config/imgbox.md
-    - 实时搜索: config/real-time-search.md
-    - 配置安装方式: config/install-info.md
-    - 多语言: config/multi-language.md
-    - 页面模板: config/page-template.md
-  - 短代码:
-    - 表格: shortcodes/table.md
-    - 折叠内容: shortcodes/folder.md
-    - 警告内容: shortcodes/warning.md
-    - 进度指示器: shortcodes/progress.md
-    - Github 信息卡: shortcodes/github-info-card.md
-    - 文章信息卡: shortcodes/post-info-card.md
-  - 技术信息:
-    - 常见 PHP 错误: tech/php-errors.md
-    - 框架和库: tech/frameworks.md
-  - 常见问题: faq.md
-  - 隐私声明: privacy.md
-  - 未来规划: roadmap.md
-  - 帮助我们: help-us.md
+    - Real Time Search: config/real-time-search.md
+    - Config Install Method: config/install-info.md
+    - Multi-Language: config/multi-language.md
+    - Page Templates: config/page-template.md
+  - Shortcodes:
+    - Table: shortcodes/table.md
+    - Folder: shortcodes/folder.md
+    - Warning: shortcodes/warning.md
+    - Progress Bar: shortcodes/progress.md
+    - Github Info Card: shortcodes/github-info-card.md
+    - Post Info Card: shortcodes/post-info-card.md
+  - Technical info:
+    - Common PHP Errors: tech/php-errors.md
+    - Frameworks & Libraries: tech/frameworks.md
+  - FAQ: faq.md
+  - Privacy Policy: privacy.md
+  - Roadmap: roadmap.md
+  - Help Us: help-us.md
   - Languages:
     - 简体中文: 'https://mdxdoc.flyhigher.top/zh-CN/'
     - English: 'https://mdxdoc.flyhigher.top/en-US/'
