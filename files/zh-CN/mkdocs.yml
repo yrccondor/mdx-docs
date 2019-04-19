@@ -59,7 +59,8 @@ nav:
   - 安装、更新及卸载: install.md
   - 配置:
     - 个性化: config/personalization.md
-    - 设置菜单: config/menus.md
+    - 样式: config/styles.md
+    - 设置菜单: config/menu.md
     - 文章图像: config/post-img.md
     - 友情链接: config/links.md
     - 小工具: config/tools.md
