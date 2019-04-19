@@ -1,7 +1,7 @@
 site_name: 'MDx Document'
-site_description: 'English docs for theme MDx.'
+site_description: 'English doc for theme MDx.'
 site_author: 'Axton'
-site_url: 'https://mdxdoc.flyhigher.top/en-US/'
+site_url: 'https://doc.flyhigher.top/mdx/en-US/'
 
 # Repository
 repo_name: 'yrccondor/mdx'
@@ -59,7 +59,8 @@ nav:
   - Install, Upgrade & Uninstall: install.md
   - Configuration:
     - Personalization: config/personalization.md
-    - Set Menu: config/menus.md
+    - Styles: config/styles.md
+    - Set Menu: config/menu.md
     - Image Of the Post: config/post-img.md
     - Friend Links: config/links.md
     - Tools: config/tools.md
@@ -84,6 +85,6 @@ nav:
   - Roadmap: roadmap.md
   - Help Us: help-us.md
   - Languages:
-    - 简体中文: 'https://mdxdoc.flyhigher.top/zh-CN/'
-    - English: 'https://mdxdoc.flyhigher.top/en-US/'
-    - Türkçe: 'https://mdxdoc.flyhigher.top/tr-TR/'
+    - 简体中文: 'https://doc.flyhigher.top/mdx/zh-CN/'
+    - English: 'https://doc.flyhigher.top/mdx/en-US/'
+    - Türkçe: 'https://doc.flyhigher.top/mdx/tr-TR/'

@@ -1,7 +1,7 @@
 site_name: 'MDx 文档'
 site_description: 'MDx 主题简体中文文档。'
 site_author: 'Axton'
-site_url: 'https://mdxdoc.flyhigher.top/zh-CN/'
+site_url: 'https://doc.flyhigher.top/mdx/zh-CN/'
 
 # Repository
 repo_name: 'yrccondor/mdx'
@@ -85,6 +85,6 @@ nav:
   - 未来规划: roadmap.md
   - 帮助我们: help-us.md
   - Languages:
-    - 简体中文: 'https://mdxdoc.flyhigher.top/zh-CN/'
-    - English: 'https://mdxdoc.flyhigher.top/en-US/'
-    - Türkçe: 'https://mdxdoc.flyhigher.top/tr-TR/'
+    - 简体中文: 'https://doc.flyhigher.top/mdx/zh-CN/'
+    - English: 'https://doc.flyhigher.top/mdx/en-US/'
+    - Türkçe: 'https://doc.flyhigher.top/mdx/tr-TR/'
