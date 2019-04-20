@@ -60,10 +60,10 @@ nav:
   - Configuration:
     - Personalization: config/personalization.md
     - Styles: config/styles.md
-    - Set Menu: config/menu.md
+    - Config Menu: config/menu.md
     - Image Of the Post: config/post-img.md
     - Friend Links: config/links.md
-    - Tools: config/tools.md
+    - Widgets: config/tools.md
     - Emotions in Comments: config/emoji-in-comment.md
     - ImgBox: config/imgbox.md
     - Real Time Search: config/real-time-search.md

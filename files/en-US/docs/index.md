@@ -1,4 +1,4 @@
-# MDx 主题文档
+# MDx Docs
 
 ![MDx](img/index.jpg)
 
@@ -10,7 +10,7 @@ MDx 是一款轻快、优雅且强大的 Material Design 风格的 WordPress 主
 
 本文档同时提供其他语言的版本：
 
-- [English](https://doc.flyhigher.top/mdx/en-US/) （未完成）
+- [简体中文](https://doc.flyhigher.top/mdx/zh-CN/) 
 - [Türkçe](https://doc.flyhigher.top/mdx/tr-TR/) （未完成）
 
 如果你还没有下载 MDx，可以前往 [这里](https://mdx.flyhigher.top/) 获取 MDx 安装包。
