@@ -1,4 +1,4 @@
-# MDx Docs
+# Document of Theme MDx
 
 ![MDx](img/index.jpg)
 

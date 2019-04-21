@@ -32,6 +32,8 @@ extra:
       link: 'https://github.com/yrccondor/mdx'
     - type: 'globe'
       link: 'https://mdx.flyhigher.top/'
+    - type: 'home'
+      link: 'https://doc.flyhigher.top'
 
 # Extensions
 markdown_extensions:
@@ -55,7 +57,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - MDx Docs: index.md
+  - MDx Document: index.md
   - Before Start: before-start.md
   - Install, Upgrade & Uninstall: install.md
   - Configuration:
@@ -78,7 +80,7 @@ nav:
     - Progress Bar: shortcodes/progress.md
     - Github Info Card: shortcodes/github-info-card.md
     - Post Info Card: shortcodes/post-info-card.md
-  - Technical info:
+  - Technical Info:
     - Common PHP Errors: tech/php-errors.md
     - Frameworks & Libraries: tech/frameworks.md
   - FAQ: faq.md

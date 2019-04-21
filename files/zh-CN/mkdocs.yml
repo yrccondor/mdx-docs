@@ -32,6 +32,8 @@ extra:
       link: 'https://github.com/yrccondor/mdx'
     - type: 'globe'
       link: 'https://mdx.flyhigher.top/'
+    - type: 'home'
+      link: 'https://doc.flyhigher.top'
 
 # Extensions
 markdown_extensions:
