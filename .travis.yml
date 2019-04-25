@@ -1,9 +1,6 @@
 language: python
-//编程语言：Python
 sudo: required
-//root权限：需要
 install:
-//需要安装的组件：
   - pip3 install --upgrade pip
   - pip3 install requests
   - pip3 install pygments
@@ -11,6 +8,5 @@ install:
   - pip3 install mkdocs-material
   - pip3 install pymdown-extensions
 script:
-//脚本（安装步骤）
   - cd files/zh-CN && mkdocs build --clean && zip -q -r site-zh-cn.zip ./site/
   - python3 ./deploy.py
