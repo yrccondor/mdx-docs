@@ -11,5 +11,6 @@ install:
   - pip3 install mkdocs-material
   - pip3 install pymdown-extensions
 script:
+//脚本（安装步骤）
   - cd files/zh-CN && mkdocs build --clean && zip -q -r site-zh-cn.zip ./site/
   - python3 ./deploy.py
