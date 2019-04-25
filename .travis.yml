@@ -1,6 +1,9 @@
 language: python
+//编程语言：Python
 sudo: required
+//root权限：需要
 install:
+//需要安装的组件：
   - pip3 install --upgrade pip
   - pip3 install requests
   - pip3 install pygments
