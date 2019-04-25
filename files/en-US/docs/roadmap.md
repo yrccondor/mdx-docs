@@ -2,7 +2,7 @@
 
 This page lists the changes we are going to implement in future releases. This page doesn't update frequently. To get latest updates or have some suggestion for us please follow the think [Github] (https://github.com/yrccondor/mdx/issues).
 
-##Changlog of upcoming version
+## Changlog of upcoming version
 
 Ver.2.0.0
 
