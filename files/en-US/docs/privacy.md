@@ -10,5 +10,5 @@ MDx only uses this information for installation statistics. We do not use this i
 
 All data is stored in Singapore and is subject to the relevant laws of the People's Republic of China and Singapore.
 
-!!! The info "GDPR"
+!!! info "GDPR"
     If you want to get/clean up data you left in the MDx service, please send an email to us (email address can be found in [Github](https://github.com/yrccondor)). Please attach your server IP and website domain name to indicate your identity.
