@@ -10,3 +10,4 @@ install:
 script:
   - cd files/zh-CN && mkdocs build --clean && zip -q -r site-zh-cn.zip ./site/
   - python3 ./deploy.py
+  
