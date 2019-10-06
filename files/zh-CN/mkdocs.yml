@@ -80,12 +80,12 @@ nav:
     - 进度指示器: shortcodes/progress.md
     - Github 信息卡: shortcodes/github-info-card.md
     - 文章信息卡: shortcodes/post-info-card.md
+    - 广告: shortcodes/ad.md
   - 技术信息:
     - 常见 PHP 错误: tech/php-errors.md
     - 框架和库: tech/frameworks.md
   - 常见问题: faq.md
   - 隐私声明: privacy.md
-  - 未来规划: roadmap.md
   - 帮助我们: help-us.md
   - Languages:
     - 简体中文: 'https://doc.flyhigher.top/mdx/zh-CN/'

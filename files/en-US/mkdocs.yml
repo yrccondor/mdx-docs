@@ -80,12 +80,12 @@ nav:
     - Progress Bar: shortcodes/progress.md
     - Github Info Card: shortcodes/github-info-card.md
     - Post Info Card: shortcodes/post-info-card.md
+    - Advertisement: shortcodes/ad.md
   - Technical Info:
     - Common PHP Errors: tech/php-errors.md
     - Frameworks & Libraries: tech/frameworks.md
   - FAQ: faq.md
   - Privacy Policy: privacy.md
-  - Roadmap: roadmap.md
   - Help Us: help-us.md
   - Languages:
     - 简体中文: 'https://doc.flyhigher.top/mdx/zh-CN/'
