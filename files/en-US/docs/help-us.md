@@ -1,19 +1,19 @@
 # Help Us
 
-## 协助开发
+## Help Us to Develop
 
-非常欢迎你协助我们开发 MDx！你可以前往 [Github](https://github.com/yrccondor/mdx) 加入我们，或是查阅 [未来规划](roadmap.md) 了解我们的开发计划。
+We are gald if you want to help us. You can join us on [Github](https://github.com/yrccondor/mdx).
 
-## 协助翻译
+## Help Us to Translate
 
-MDx 计划支持多种语言。如果你愿意帮助我们将 MDx 翻译至其他语言，欢迎联系我们以提供帮助。感谢！
+MDx isplanned to support multiple languages. If you are willing to help us translate MDx into other languages, please contact us for help. Thanks!
 
-## 请我一杯咖啡
+## Buy me a cup of coffee
 
-你也可以通过请我一杯咖啡来帮助我的开发。我保证所有捐赠款项均会被用于 MDx 相关项目。
+You can also help my development by buying me for a cup of coffee. I guarantee that all donations will be used for MDx related projects.
 
 ![Donate](img/donate.jpg)
 
-## 建议与意见
+## Suggestions and Feedbacks
 
-你还可以通过提出你的建议与意见来帮助我们开发更好的 MDx。任何建议与意见请前往 [Github](https://github.com/yrccondor/mdx/issues) 提出。
+You can also help us to develop better MDx by putting forward your suggestions and opinions. Please go to [Github](https://github.com/yrccondor/mdx/issues) for any suggestions and comments.

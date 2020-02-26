@@ -1,63 +1,64 @@
 # FAQ
 
-## 主题下载
+## Download
 
-> 我能从哪里下载 MDx？
+> Where can I download MDx?
 
-MDx 提供 2 个官方发布渠道，从这 2 个发布渠道下载的 MDx 会是最新的：
+You can download MDx from 2 official channels:
 
-- [MDx 网站](https://mdx.flyhigher.top)
+- [MDx website](https://mdx.flyhigher.top)
 - [Github Releases](https://github.com/yrccondor/mdx/releases/)
 
-从其他渠道下载的 MDx 不一定是最新的，**请尽量不要使用。**
+**Try to avoid dowlowing MDx from other places.**
 
-> 我可以通过直接 Clone 仓库的方式来下载吗？
+> Can I download MDx by cloning the Git Repo>
 
-尽量不要。
+Try to avoid that.
 
-每当新版本发布时，MDx 的构建系统会自动拉取最新的主题文件并在进行一些修改（压缩 CSS、写入版本信息、去除不必要的文件等）后进行打包发布。如果你直接 `clone` 主题仓库，**可能会遇到 MDx 设置数据被清空、更新版本不正确等问题，请尽可能不要这么做。**
+Every time a new version is released, MDx's building system will automatically pull the latest theme file and package and release it after making some modifications (compressing CSS, writing version information, removing unnecessary files, etc.). If you directly `clone` the repo, **you may encounter problems such as the setting data being emptied and the updated version being incorrect, please do not do so.**
 
-当然，我们并非不你允许 `clone` 主题仓库，**只是不建议通过这种方式下载主题。**
+Of course, we are not denying you to `clone` the repo, **we just don't recommend downloading the theme in this way.**
 
-> 如何确保我下载的主题没有被第三方修改？
+> How to ensure that the theme I downloaded has not been modified by others?
 
-[MDx 网站](https://mdx.flyhigher.top) 提供了最新版本安装包的哈希值，你可以通过对比哈希值来确保你的安装包是最新且没有被第三方修改过的。
+[MDx website](https://mdx.flyhigher.top) provides the hash value of the latest version. You can compare the hash to ensure that the theme you downloaded is up-to-date and has not been modified by others.
 
-## 主题使用
+## Usage
 
-> 安装主题后网站无法正常显示怎么办？
+> What if the website cannot display normally after installing the theme?
 
-MDx 在主流环境配置中经过测试，**如果遇到问题请先检查你的环境配置，并确认是否是 MDx 造成的问题。** 如果的确是 MDx 引起的问题且无法解决，请向我们反馈。
+MDx has been tested in mainstream configuration, **if you encounter problems, please check your environment first and confirm whether MDx is causing the problem.** If the problem is caused by MDx and cannot be solved, please feedback.
 
-> 使用中遇到问题，我该去哪里反馈？
+> Where should I go for feedback if I encounter problems?
 
-你可以通过以下 2 个渠道向我们反馈问题、提出疑惑：
+You can feedback and ask questions through the following 3 channels:
 
 - [Github issues](https://github.com/yrccondor/mdx/issues)
-- QQ 群：687577787
+- QQ group: 687577787
+- Telegram group: [@wpmdx](https://t.me/wpmdx)
 
-## 主题开发
+## Develop
 
-> 我可以二次开发 MDx 吗？
+> Can I modify the theme?
 
-当然可以。MDx 使用 GPL V3.0 协议发布，你可以 **随意且免费地修改主题**，但请遵守 GPL V3.0 协议。
+Yes. MDx is published under GPL V3.0 license. You can freely modify the theme if you are obeying the license.
 
-作为附加条款，**你不能修改或移除主题页面底部的 "Theme: MDx By AxtonYao" 字样**，否则请不要使用 MDx。
+As an additional clause, **you cannot modify or remove the words "Theme: MDx By AxtonYao" at the bottom of the page**, otherwise please do not use MDx.
 
-如果你觉得自己所做的修改对其他用户也非常有帮助，欢迎向我们提交 Pull Request，详见 [帮助我们](help-us.md)。
+If you feel that the changes you have made are also helpful to other users, please submit Pull Requests. Please refer to [Help Us](help-us.md).
 
-> 更新后我对主题的修改丢失了怎么办？
+> What should I do if my changes are lost after the update?
 
-这是 WordPress 的更新原理导致的。主题更新过程中 WordPress 会使用新版本的主题文件覆盖旧版本的主题文件，因此会覆盖你的修改。
+This is due to the update logic of WordPress. WordPress will overwrite the old version of the files with the new version of the files during the update process, which will overwrite your changes as well.
 
-要保持你的修改，请考虑使用 [子主题](https://codex.wordpress.org/zh-cn:子主题)。
+To keep your changes, please consider using [Child Themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/).
 
-## 其他问题
+## Other Questions
 
-> 如何正确地提问？
+> How to ask questions properly?
 
-请参阅 [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)。
+Please refer to [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html).
 
-> MDx 不好用、很垃圾怎么办？
+> What should I do if I believe MDx is unusable and is like rubbish?
 
-哦。
+I agree.

@@ -2,7 +2,7 @@
 
 ## 协助开发
 
-非常欢迎你协助我们开发 MDx！你可以前往 [Github](https://github.com/yrccondor/mdx) 加入我们，或是查阅 [未来规划](roadmap.md) 了解我们的开发计划。
+非常欢迎你协助我们开发 MDx！你可以前往 [Github](https://github.com/yrccondor/mdx) 加入我们。
 
 ## 协助翻译
 

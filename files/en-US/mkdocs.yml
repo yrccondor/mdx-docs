@@ -25,6 +25,11 @@ theme:
   include_search_page: false
   search_index_only: true
 
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
 # Customization
 extra:
   social:
@@ -84,6 +89,7 @@ nav:
   - Technical Info:
     - Common PHP Errors: tech/php-errors.md
     - Frameworks & Libraries: tech/frameworks.md
+    - API: tech/api.md
   - FAQ: faq.md
   - Privacy Policy: privacy.md
   - Help Us: help-us.md

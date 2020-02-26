@@ -14,10 +14,10 @@ MDx 内置了 [MDUI](https://mdui.org) 框架的 0.4.2 版本。此框架位于 
 
 ## jQuery
 
-MDx 内置了 jQuery 3.2.1 版本。此文件位于 `主题根目录/js/` 下。
+MDx 内置了 jQuery 3.4.1 版本。此文件位于 `主题根目录/js/` 下。
 
 !!! info "移除 jQuery"
-    MDx 计划在未来版本中移除对 jQuery 的依赖，但 jQuery 文件暂时不会被移除以应对可能的第三方需求。
+    MDx 计划在未来版本中移除对 jQuery 的依赖。
 
 ## html2canvas
 
@@ -26,16 +26,13 @@ MDx 内置了 [html2canvas](https://html2canvas.hertzen.com) 1.0.0-alpha.11 版�
 !!! info "更新 html2canvas"
     MDx 会尽可能跟随 html2canvas 更新内置的 html2canvas 版本。
 
-## lazyload
+## lazysizes
 
-MDx 内置了 [lazyload](https://github.com/jieyou/lazyload)。此文件位于 `主题根目录/js/` 下。
+MDx 内置了 [lazysizes](https://github.com/aFarkas/lazysizes) 5.2.0 版本。此文件位于 `主题根目录/js/` 下。
 
-!!! info "更新 LazyLoad"
-    MDx 计划在未来版本中使用另一 LazyLoad 库代替这个库以提供更好的性能和加载样式。
+!!! info "更新 lazysizes"
+    MDx 会尽可能跟随 lazysizes 更新内置的 lazysizes 版本。
 
-## Theme Update Checker Library
+## Plugin Update Checker
 
-MDx 内置了 [Theme Update Checker Library](https://w-shadow.com/blog/2011/06/02/automatic-updates-for-commercial-themes/) 1.2 版本。此文件位于主题根目录下。
-
-!!! info "替换 Theme Update Checker Library"
-    MDx 计划在未来版本中使用 [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker/) 来替换这一老旧库。
+MDx 内置了 [Plugin Update Checker](https://github.com/YahnisElsts/plugin-update-checker) 4.8.1 版本。此文件位于主题根目录下。

@@ -31,10 +31,11 @@ MDx 在主流环境配置中经过测试，**如果遇到问题请先检查你�
 
 > 使用中遇到问题，我该去哪里反馈？
 
-你可以通过以下 2 个渠道向我们反馈问题、提出疑惑：
+你可以通过以下 3 个渠道向我们反馈问题、提出疑惑：
 
 - [Github issues](https://github.com/yrccondor/mdx/issues)
 - QQ 群：687577787
+- Telegram 群组：[@wpmdx](https://t.me/wpmdx)
 
 ## 主题开发
 

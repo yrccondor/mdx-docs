@@ -2,15 +2,15 @@
 
 ![MDx](img/index.jpg)
 
-> 轻于形，悦于心
+> Looks light, power inside.
 
-MDx 是一款轻快、优雅且强大的 Material Design 风格的 WordPress 主题。
+MDx is a light, elegent and powerful WordPress theme with Material Design.
 
-这是 MDx 主题的文档。本文档会指导你安装及配置 MDx，并解答一些常见问题。
+This is the document of MDx, which will help you to install, configure troubleshoot MDx.
 
-本文档同时提供其他语言的版本：
+This document is also available in other languages:
 
 - [简体中文](https://doc.flyhigher.top/mdx/zh-CN/) 
-- [Türkçe](https://doc.flyhigher.top/mdx/tr-TR/) （未完成）
+- [Türkçe](https://doc.flyhigher.top/mdx/tr-TR/) (Unfinished)
 
-如果你还没有下载 MDx，可以前往 [这里](https://mdx.flyhigher.top/) 获取 MDx 安装包。
+If you haven't download MDx yet, you can download it from [here](https://mdx.flyhigher.top/).

@@ -25,6 +25,11 @@ theme:
   include_search_page: false
   search_index_only: true
 
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
 # Customization
 extra:
   social:
@@ -84,6 +89,7 @@ nav:
   - 技术信息:
     - 常见 PHP 错误: tech/php-errors.md
     - 框架和库: tech/frameworks.md
+    - API: tech/api.md
   - 常见问题: faq.md
   - 隐私声明: privacy.md
   - 帮助我们: help-us.md

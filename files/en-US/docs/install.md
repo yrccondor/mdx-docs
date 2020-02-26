@@ -1,31 +1,31 @@
 # Install, Upgrade & Uninstall
 
-## 安装
+## Installation
 
-MDx 暂时没有上架 WordPress 官方主题库，你需要手动下载 MDx 安装包并安装。
+MDx is not currently on the WordPress official theme library. You need to manually download MDx and install it.
 
-一旦获取到了安装包，你只需要打开 WordPress 后台的添加主题页，并按页面上的提示上传安装包进行安装。安装完成后，你就可以激活 MDx 并使用了。
+Once you have get the installation package, you only need to open the WordPress admin panel and upload the installation package according to the instruction on the page. After the installation, you can activate MDx and use it.
 
-!!! info "MDx 后台设置面板"
-    MDx 一旦被激活，就会在后台侧栏显示设置面板的入口。如果你没有看见入口链接，请检查你的用户权限。
+!!! info "MDx settings"
+    Once MDx is activated, the entry to MDx settings will be displayed in the sidebar. If you do not see the entry, please check your permission.
 
-## 更新
+## Update
 
-MDx 接入了 WordPress 更新机制。当主题有更新时，WordPress 会在后台发出提醒。你只需按照页面提示操作即可完成升级。
+MDx is compatible with WordPress update. WordPress will issue a reminder in the admin panel when the updated is available. You only need to follow the instruction to complete the update.
 
-你也可以手动升级 MDx。只需下载最新版本的安装包，并将其解压覆盖旧的主题文件即可。
+You can also upgrade MDx manually. Just download the latest version of the theme and decompress it to overwrite old theme files.
 
-更新时，MDx 会自动迁移所有 MDx 相关的设置值，绝大多数情况下你的 MDx 设置不会丢失。
+When updating, MDx will automatically migrate all MDx-related settings. In most cases, your MDx settings will not be lost.
 
-!!! tip "修改主题文件"
-    当主题更新时，你对主题文件所有的更改都会丢失。要保持你的修改，请参阅 [WordPress 子主题](https://codex.wordpress.org/zh-cn:子主题)。
+!!! tip "Modify the theme"
+    All your changes will be lost after updating the theme. To keep your changes, please consider using [Child Themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/).
 
-!!! danger "备份数据库"
-    无论如何，我们始终建议你在更新等重要操作前备份你的数据库以防意外的数据丢失。不仅是 MDx，更新 WordPress 时也应如此。
+!!! danger "Backup your database"
+    We always recommend that you should backup your database before important operations such as updates to prevent accidental data loss. Not only updating MDx, but also WordPress updates.
 
-## 卸载
+## Uninstall
 
-你只需在 WordPress 后台删除 MDx 即可完成卸载。你的 MDx 设置值会留在数据库中而不会被移除，下次安装 MDx 时这些设置值会被自动应用。
+You only need to delete MDx in WordPress admin panel uninstall. Your MDx settings will remain in the database but will not be removed. These settings will be automatically applied the next time MDx is installed.
 
-!!! tip "清理 MDx 残留数据"
-    MDx 的所有数据均存储于 WordPress 数据库 `wp-options` 表中。删除此表中所有 "mdx-" 开头的键值即可完成清理。
+!!! tip "Clean MDx settings"
+    All MDx data is stored in the `wp-options` table in the WordPress database. You can delete all the key values with the beginning of "mdx-" in this table.
