@@ -1,18 +1,18 @@
 # Styles
 
-MDx 提供了 3 种首页样式、3 种文章页样式、5 种文章列表样式。在后台「MDx 主题」-「样式」中可以预览切换这些样式。
+MDx offers 3 homepage styles, 3 post style and 5 post list styles. You can preview and switch these styles in "MDx theme - Appearances".
 
-!!! info "更多样式"
-    随着 MDx 的更新，MDx 可能会增加更多的样式选择。
+!!! info "More styles"
+    MDx may add more choices with the update.
 
-## 首页样式
+## Homepage Style
 
-首页样式决定了首页的样式。MDx 提供「默认」「简单」和「两栏」3 种样式。
+Homepage style determines what the homepage looks like. MDx has "Default", "Simple" and "Columned" 3 styles.
 
-## 文章页样式
+## Posts Style
 
-文章页样式决定了文章页面的样式。MDx 提供了「标准」「简洁」和「通透」3 种样式。
+Posts style determines what the post pages look like. MDx has "Standard", "Flat" and "Clear" 3 styles.
 
-## 文章列表样式
+## Posts List Style
 
-文章列表样式决定了首页、归档页等页面中文章列表的样式。MDx 提供了「简洁」「列表」「干净」「网格」和「朴素」5 种文章列表样式。
+Posts list style determines what the post list in the homepage and category pages look like. MDx has "Flat", "Text-only Lists", "Card-Like", "Grids" and "Plain" 5 styles.

@@ -1,9 +1,9 @@
-# Emotions in Comments
+# Emoji in Comments
 
 ![Emoji in comment panel](../img/emoji.jpg)
 
-MDx 在后台设置中提供了评论表情开关，但开启评论表情功能后仍需安装来自 mayuko 的 Alu 表情插件才能正常显示。请 [点此](https://doc.flyhigher.top/mdx/resources/alu.zip) 下载适用于 MDx 的修改版插件。
+MDx provides a emoji-in-comment switch in the theme settings to enable customized emoji support, but the a plug-in called Alu from mayuko still needs to be installed to active the function. Click [here](https://doc.flyhigher.top/mdx/resources/alu.zip) to download modified Alu that designed for MDx.
 
-!!! bug "评论表情按钮错位"
-    目前已知评论表情按钮在用户已登录状态下会略微错位（不影响使用）。由于 MDx 并没有加入多用户支持，因此此问题在短时间内可能不会被修复。
+!!! bug "Misplaced emoji button"
+    It is known that the emoji buttonin comment block is slightly misplaced (does not affect use) when the user is logged in. Since MDx does not include multi-user support, this problem may not be fixed right now.
     

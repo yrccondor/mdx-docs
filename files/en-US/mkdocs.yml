@@ -72,7 +72,7 @@ nav:
     - Image Of the Post: config/post-img.md
     - Friend Links: config/links.md
     - Widgets: config/tools.md
-    - Emotions in Comments: config/emoji-in-comment.md
+    - Emoji in Comments: config/emoji-in-comment.md
     - ImgBox: config/imgbox.md
     - Real Time Search: config/real-time-search.md
     - Config Install Method: config/install-info.md

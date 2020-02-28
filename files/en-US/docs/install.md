@@ -2,7 +2,7 @@
 
 ## Installation
 
-MDx is not currently on the WordPress official theme library. You need to manually download MDx and install it.
+MDx is not currently in the WordPress official theme library. You need to manually download MDx and install it.
 
 Once you have get the installation package, you only need to open the WordPress admin panel and upload the installation package according to the instruction on the page. After the installation, you can activate MDx and use it.
 

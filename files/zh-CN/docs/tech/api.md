@@ -10,9 +10,9 @@
 
 ## 离线模式
 
-当你的站点启用了 Service Worker 时，其可以被离线访问。但由于离线，此时站点的搜索和评论功能都不可用。MDx 提供离模式，在被激活时可以优雅地禁用站点的搜索和评论功能并显示一条提示。
+当你的站点启用了 Service Worker 时，其可以被离线访问。但由于离线，此时站点的搜索和评论功能都不可用。MDx 提供离线模式，在被激活时可以优雅地禁用站点的搜索和评论功能并显示一条提示。
 
-离线模式必须被手动激活。在 `js.js`, `post.js` 或 `page.js` 被载入前将名为 `offlineMode` 的 Javascript 变量设置为 `true` 即可激活离线模式。
+离线模式必须被手动激活。在位于页面末尾的 `js.js`, `post.js` 或 `page.js` 被载入前将名为 `offlineMode` 的 Javascript 变量设置为 `true` 即可激活离线模式。
 
 ```JavaScript
 var offlineMode = true;
@@ -20,9 +20,9 @@ var offlineMode = true;
 
 ## 禁用 Cookie 使用提示
 
-如果你启用了 Cookie 使用提示功能，你可能会希望对非欧盟地区的访客禁用该提示。MDx 提供了禁用 API，但仅提供直接禁用的方法，具体判断逻辑还需另外编写。
+如果你启用了 Cookie 使用提示功能，你可能会希望对非欧盟地区的访客禁用该提示。MDx 提供了禁用 API，**但仅提供直接禁用的方法，具体判断逻辑还需另外编写。**
 
-要禁用 Cookie 提示，你需要在 `js.js`, `post.js` 或 `page.js` 被载入前将名为 `displayCookie` 的 Javascript 变量设置为 `false`
+要禁用 Cookie 提示，你需要在位于页面末尾的 `js.js`, `post.js` 或 `page.js` 被载入前将名为 `displayCookie` 的 Javascript 变量设置为 `false`。
 
 ```JavaScript
 var displayCookie = false;

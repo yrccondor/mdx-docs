@@ -1,28 +1,28 @@
 # API
 
-为了更方便地实现某些高级功能，MDx 在开发过程中预留了部分 API。这些 API 是为程序调用预留的，并不直接向主题用户公开。这个页面将列出 MDx 中所有预留的 API 及调用方法。
+To develop some advanced functions, MDx has reserved some API while developing. These APIs are reserved for program calls and are not directly exposed to theme users. This page will list all APIs and the their usages.
 
-## 最近评论
+## Recently Commented
 
-如果一位访客刚刚发表了评论，它将会带有名为 `mdx_recently_commented`，值为 `true` 的 Cookie 以便辨识。该 Cookie 有效期为 15 分钟。
+If a visitor has just submitted a comment, it will carry a Cookie named `mdx_recently_commented` with a value `true` for identification. The Cookie is valid for 15 minutes.
 
-这一 API 无需调用即可生效。
+This API can take effect without configure.
 
-## 离线模式
+## Offline Mode
 
-当你的站点启用了 Service Worker 时，其可以被离线访问。但由于离线，此时站点的搜索和评论功能都不可用。MDx 提供离模式，在被激活时可以优雅地禁用站点的搜索和评论功能并显示一条提示。
+If your site has enabled Service Worker, it can be accessed offline. However, due to offline, the search and comment functions are not available at this time. MDx provides an offline mode that can gracefully disable the search and comment functions and displays a notice when activated.
 
-离线模式必须被手动激活。在 `js.js`, `post.js` 或 `page.js` 被载入前将名为 `offlineMode` 的 Javascript 变量设置为 `true` 即可激活离线模式。
+The offline mode must be activated manually. It can be activated by setting the Javascript variable `offlineMode` to `true` before `js.js`, `post.js` or `page.js` is loaded in the end of the page.
 
 ```JavaScript
 var offlineMode = true;
 ```
 
-## 禁用 Cookie 使用提示
+## Disable Cookie Consent
 
-如果你启用了 Cookie 使用提示功能，你可能会希望对非欧盟地区的访客禁用该提示。MDx 提供了禁用 API，但仅提供直接禁用的方法，具体判断逻辑还需另外编写。
+If you have enabled the Cookie consent function, you may wish to disable the prompt for visitors from non-EU regions. MDx provides an API to disable it, **but that only provides a method of direct disabling. Specific judgment logic needs to be designed separately.**
 
-要禁用 Cookie 提示，你需要在 `js.js`, `post.js` 或 `page.js` 被载入前将名为 `displayCookie` 的 Javascript 变量设置为 `false`
+To disable cookie consent, you have to set the Javascript variable `displayCookie` to `false` before `js.js`, `post.js` or `page.js` is loaded in the end of the page.
 
 ```JavaScript
 var displayCookie = false;
