@@ -5,7 +5,7 @@
 !!! info "图标来源"
     MDx 支持的图标来自于 Google。
 
-## 激活菜单
+## Active menu
 
 当主题被激活后，你可能会发现抽屉菜单中的菜单样式与预期不符。可能像这样：
 
@@ -21,7 +21,7 @@
 !!! info "菜单深度"
     MDx 仅支持显示 2 级菜单，更深层级的菜单会被忽略。
 
-## 向菜单中添加图标
+## Add icons to menu item
 
 你可能希望向菜单中添加图标，就像这样：
 
@@ -38,3 +38,111 @@
 ![Set icon](../img/set-icon.jpg)
 
 最后，如果需要的话，对其余菜单项也进行相同的处理。
+
+## Add Logos to menu item
+
+除 MDUI 图标库中的图标外，MDx 添加了 17 个社交网站的 Logo 图标，你可以像使用普通图标一样将其添加到菜单中。
+
+图标及对应代码如下：
+
+QQ:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_qq"> </i>
+```
+
+WeChat:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_wechat"> </i>
+```
+
+Weibo:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_weibo"> </i>
+```
+
+Zhihu:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_zhihu"> </i>
+```
+
+Bilibili:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_bilibili"> </i>
+```
+
+Netease Music:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_neteasemusic"> </i>
+```
+
+Coolapk:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_coolapk"> </i>
+```
+
+Douban:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_douban"> </i>
+```
+
+GitHub:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_github"> </i>
+```
+
+Facebook:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_facebook"> </i>
+```
+
+Twitter:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_twitter"> </i>
+```
+
+Telegram:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_telegram"> </i>
+```
+
+Steam:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_steam"> </i>
+```
+
+WhatsApp:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_whatsapp"> </i>
+```
+
+Instagram:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_instagram"> </i>
+```
+
+Dribbble:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_dribbble"> </i>
+```
+
+Behance:
+
+```html
+<i class="mdui-color-theme mdx-sn-icon mdx_sn_behance"> </i>
+```
